@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "van-button": "@vant/weapp/button",
+    "van-notice-bar": "@vant/weapp/notice-bar",
+    "van-cell": "@vant/weapp/cell",
+    "van-cell-group": "/@vant/weapp/cell-group"
+    
+    
+  },
+  "navigationBarTitleText": "个人中心"
+}

@@ -1,0 +1,19 @@
+<view class='profile'>
+  <view class="profile-img">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <open-data type="userNickName" class="profile-name"></open-data>
+</view>
+<button open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">获取用户信息</button>
+<van-notice-bar
+  left-icon="https://img.yzcdn.cn/1.png"
+  text="更多最新电影，尽在麦子影堂，请给我加赞，谢谢。品一部电影，尝百味人生"
+/>
+
+<van-cell
+  is-link
+  title="关于麦子影堂"
+  link-type="navigateTo"
+  url="/pages/person/person"
+/>
+   

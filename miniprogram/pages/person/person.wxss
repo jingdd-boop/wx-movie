@@ -1,0 +1,5 @@
+.per{
+  margin: 30rpx auto;
+ font-family: cursive;
+ font-size: 40rpx;
+}

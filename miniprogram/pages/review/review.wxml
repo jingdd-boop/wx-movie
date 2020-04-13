@@ -1,0 +1,21 @@
+<view class="review" wx:for="{{reviewList}}" wx:key="{{index}}">
+  
+  <image class="review-img" src="{{item.images.medium}}"></image>
+  <view class="review-info">
+    
+    <view class="review-title">{{item.title}}</view>
+
+    <view>电影性质：
+    <text class="review-score">{{item.genres}}</text>
+    </view>
+
+    <view class="review-title">{{item.title}}</view>
+
+    <view>主演：
+    <text wx:for="{{item.casts}}">{{item.name}}
+    </text>
+    </view>
+    <view>年份：{{item.year}}</view>
+    <van-button round type="info"  size="small" class="button">麦子影堂</van-button>
+  </view>
+</view>

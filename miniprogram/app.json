@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/movie/movie",
+    "pages/profile/profile",
+    "pages/comment/comment",
+    "pages/review/review",
+    "pages/person/person"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E54847",
+    "navigationBarTitleText": "麦子影堂",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#E54847",
+    "list": [
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "排名评分",
+        "iconPath": "images/movie.png",
+        "selectedIconPath": "images/movie1.png"
+      },
+      {
+        "pagePath": "pages/review/review",
+        "text": "最新上映",
+        "iconPath": "images/last.png",
+        "selectedIconPath": "images/last1.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "images/person.png",
+        "selectedIconPath": "images/person1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+
+}

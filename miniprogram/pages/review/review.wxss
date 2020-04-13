@@ -1,0 +1,29 @@
+.review{
+  width:100%rpx ;
+  height:600rpx ;
+ 
+ border-radius: 10%;
+  margin-bottom: 10rpx;
+  margin-top: 10rpx;
+  box-shadow: 5px 4px 5px #d3cfd0af;
+}
+.review-img{
+  margin-left: 60rpx;
+  width: 600rpx;
+  height: 300rpx;
+  margin-top: 5rpx;
+   box-shadow: -5px 4px 5px #adaba5;
+   border-radius: 50%;
+}
+.review-info{
+   margin-left: 20px;
+  width: 400px;
+  margin: 5px 30px;
+  font-family: 'Courier New', Courier, monospace;
+  align-content: center;
+  color: rgb(26, 3, 3);
+  font-size: 24rpx;
+}
+.button{
+  margin-left: 160px;
+}

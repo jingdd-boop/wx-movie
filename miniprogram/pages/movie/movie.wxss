@@ -1,0 +1,47 @@
+.movie{
+  height: 300rpx;
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid rgb(221, 221, 220);
+ background-color: black;
+ box-shadow: 5px 4px 5px #ecebe6d2;
+ 
+}
+
+
+.movie-img{
+  width: 200rpx;
+  height: 100%;
+  margin-right: 20rpx;
+  box-shadow: 5px 4px 5px #adaba5;
+  transition: all 1s;
+ 
+}
+.movie-img:hover{
+  transform: scaleX(1.1);
+}
+
+.movie-info{
+  flex: 1;
+  font-family: cursive;
+  color: white;
+
+}
+
+.movie-titile{
+  color: #666;
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+
+.movie-score{
+  color: #faaf00;
+}
+
+.movie-comment{
+  height:60rpx;
+  background: #E54847;
+  color:#fff;
+  font-size: 26rpx;
+  margin-top:120rpx;
+}
